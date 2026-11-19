@@ -813,6 +813,53 @@ table.ex2-t{min-width:0;width:100%;border-collapse:collapse;font-size:13.5px}
 .maplg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13.5px;color:var(--ink-2);margin-top:10px}
 .maplg span{display:inline-flex;align-items:center;gap:6px}
 .maplg i{width:12px;height:12px;border-radius:50%;background:var(--c);display:inline-block}
+.critbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:22px 0 0;padding:12px 14px;border:2px solid var(--line);border-radius:12px;background:var(--surface)}
+.critbar .cl{font-weight:800;font-size:14px}
+.critbar .zgrp{display:inline-flex;flex-wrap:wrap;gap:6px}
+.critbar .cx{flex-basis:100%;font-size:13px;color:var(--ink-2);margin:0}
+.mtabs{display:flex;gap:6px;margin:0 0 12px;flex-wrap:wrap}
+.uflist{width:100%;min-width:0;table-layout:fixed;border-collapse:collapse;font-size:14px;margin-top:6px}
+.uflist td{border-bottom:1px solid var(--line);padding:6px 6px;vertical-align:middle}.uflist td:nth-child(3){white-space:nowrap}
+.uflist td.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.uflist td.rk{color:var(--ink-2);font-weight:700;width:2.2em}
+.uflist .ufbtn{all:unset;cursor:pointer;font-weight:700}
+.uflist .ufbtn:hover{text-decoration:underline}.uflist .ufbtn:focus-visible{outline:2px solid var(--accent)}
+.uflist .bar{display:inline-block;height:9px;border-radius:99px;background:var(--c);vertical-align:middle;margin-right:6px;min-width:3px}
+.uflist tr:hover td{background:color-mix(in srgb,var(--accent) 7%,transparent)}
+.uflist tr.rg td{background:color-mix(in srgb,var(--c) 14%,var(--surface));font-weight:800;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:color-mix(in srgb,var(--c) 75%,var(--ink));border-left:4px solid var(--c);padding:6px 8px}
+.uflist tr.rg td span{font-weight:600;opacity:.8;margin-left:4px;text-transform:none;letter-spacing:0}
+.uflist small{color:var(--muted)}
+.mlist td small.pos{display:block;color:var(--muted);font-weight:600;font-size:11.5px}
+.mlist th.act button,.mlist th.act .rkh{color:var(--accent)}
+.mpt th.act{color:var(--accent)}
+.ufn.ck{cursor:pointer}.ufn.on circle{stroke:var(--ink)!important;stroke-width:2.5px!important}
+.critbar .field{width:auto;padding:5px 8px;font-size:13.5px;margin-left:4px}
+.critbar .crow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;flex-basis:100%;font-size:13.5px;font-weight:600}
+.critbar .cw{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600}
+.critbar .cw input{width:160px}
+.critbar .cchips{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
+.critbar .chip,.cen .chip{--c:var(--ink-2)}
+.ctest{color:var(--warn)}
+.cbtns{display:inline-flex;gap:4px;white-space:nowrap}.cbtns .btn.small{padding:2px 7px;font-size:12px;border-width:1px}
+.cen{margin-top:36px}
+.cen h3{font-size:22px}
+.ckps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.ckp{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--surface)}
+.ckp b{display:block;font-size:22px;font-variant-numeric:tabular-nums}.ckp span{font-size:12.5px;color:var(--ink-2)}
+.censcroll{overflow-x:auto;margin-top:8px}
+.centb{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--surface)}
+.centb th,.centb td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+.centb th small{display:block;font-weight:500;color:var(--muted);font-size:11.5px;margin:2px 0 4px}
+.centb td.cc{text-align:center;white-space:nowrap}
+.centb tr.mt td{background:var(--band);font-weight:600}
+.centb tr.rgr td{font-weight:800;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;color:color-mix(in srgb,var(--c) 75%,var(--ink));border-left:4px solid var(--c);background:color-mix(in srgb,var(--c) 12%,var(--surface))}
+.centb .tg{font-size:11px;font-weight:700;padding:1px 6px;border-radius:99px;background:var(--ink);color:var(--surface);white-space:nowrap}
+.centb .tg.s{background:transparent;color:var(--ink);border:1px dashed var(--ink)}
+.centb td.rgc{font-weight:800;color:color-mix(in srgb,var(--c) 75%,var(--ink));border-left:4px solid var(--c);white-space:nowrap}
+.cen .chip small{opacity:.85;font-weight:500}
+.csave{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0}
+.csave .field{width:min(420px,100%);padding:6px 10px;font-size:14px}
+.cenh{margin-top:18px;font-size:15px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .mapinfo{background:var(--surface);border:2px solid var(--line);border-top:6px solid var(--c,var(--accent));border-radius:12px;padding:18px 20px;max-height:min(760px,85vh);overflow:auto}
 .mapinfo .stats2 .sv{font-size:16px!important;line-height:1.35}
 .mapinfo .stats2 .st2{padding:8px 0}
@@ -956,8 +1003,9 @@ table.ex2-t{min-width:0;width:100%;border-collapse:collapse;font-size:13.5px}
         <li><b>✓ Pactuação</b><span>a lista final e as reservas são pactuadas com a SNDCA (RN18)</span></li></ul></div>
   </div>
   <p class="fnote">Fontes estaduais, do MP e das prefeituras (2015 a 2026, planilha revisada pela equipe em 11/11/2026): “lixão encerrado” tira a elegibilidade (decisão de 11/11/2026), mesmo que as bases federais ainda registrem lixão. Lixão em encerramento ou destino a aterro não tiram: o município aparece com o alerta ⚑, para a equipe avaliar se é inviável (RN17). ✈ = tempo de carro, sem trânsito, até o aeroporto com voo regular mais rápido por estrada.</p>
-  <h3 style="margin-top:36px">Ranking por população em cada região</h3>
-  <p class="cs" style="max-width:880px;font-size:15px">Os elegíveis de cada região em ordem de população (Censo 2022, IBGE), com a nota IPT-TIL de cada um. A sugestão soma a posição em população com a posição na nota (menor soma primeiro). A equipe escolhe a lista principal e as reservas; as marcas <span class="tg">principal</span> e <span class="tg s">reserva</span> são só a sugestão do índice, como apoio.</p>
+  <h3 style="margin-top:36px">Ranking em cada região</h3>
+  <p class="cs" style="max-width:880px;font-size:15px">Os elegíveis de cada região na ordem do critério ativo, com população (Censo 2022, IBGE), nota IPT-TIL e a posição em cada uma. A regra oficial soma a posição em população com a posição na nota (menor soma primeiro); o seletor abaixo testa outros critérios. A equipe escolhe a lista principal e as reservas; as marcas <span class="tg">principal</span> e <span class="tg s">reserva</span> são só a sugestão do índice, como apoio.</p>
+  <div class="critbar" id="critMont"></div>
   <div id="montagem" class="mpop"><p class="empty">O ranking aparece assim que a base carregar.</p></div>
   <p class="fnote">O ranking completo de cada região, com posição, população e nota, está na lista ao lado do mapa (seção 2).</p>
 </div>
@@ -970,11 +1018,13 @@ table.ex2-t{min-width:0;width:100%;border-collapse:collapse;font-size:13.5px}
   <div class="sechead"><span class="kicker"><span class="num">2</span>Mapa dos Municípios</span>
     <h2 id="map-h">Os <span id="map-n">—</span> municípios com lixão em operação</h2>
     <p class="lead">Dos 85 municípios pré-selecionados, <span class="n-eleg">—</span> são elegíveis: têm lixão em operação (a seção 1 explica por quê). Eles ficam sempre no mapa. Os botões destacam a lista principal e as reservas, ou acrescentam os outros pré-selecionados. Clique num município ou numa região da lista para vê-los no mapa.</p></div>
+  <div class="critbar" id="critMap"></div>
   <div class="mapwrap">
     <div class="mapbox"><div class="mapzoom" id="mapzoom"></div><svg id="mapsvg" role="img" aria-label="Mapa do Brasil com os municípios candidatos e as capitais"></svg>
       <div class="maplg" id="maplg"></div><p class="maphint">Zoom: roda do mouse, dois dedos ou os botões + e −. Arraste para mover. Duplo clique aproxima no ponto.</p></div>
     <div class="mapinfo" id="mapinfo"><p class="muted">Carregando a lista de municípios…</p></div>
   </div>
+    <div class="cen" id="cenwrap"></div>
     <div class="qa" style="margin:40px 0 8px"><h3>O que os dados mostram até agora</h3>
     <p class="ans"><b><span id="q3-ativo">—</span> dos 85 têm lixão em operação</b> (SINISA 2025 e SINIR 2024, pela RN03). <b>Trabalho infantil confirmado dentro do lixão: <span id="q3-doc">—</span></b> (levantamento web, out/2026). Nenhuma base oficial mede isso; é o que o campo vai levantar. Os indícios abaixo contam só os <span class="n-eleg">—</span> elegíveis: clique para ver os municípios.</p></div>
   <div class="dq">
@@ -1189,17 +1239,39 @@ function score(m,R){const parts={},c={};
 // corte da lista ou das reservas. As 3 primeiras viáveis formam a lista principal e as viáveis até a 6ª posição são as reservas,
 // na ordem. Município inviável cede a vaga à reserva seguinte; sem reservas, decide a SNDCA.
 const TOPPOP=6;
+// ---------- Cenário (pedido do Gabriel, 19/11/2026) ----------
+// Critério: soma das posições (regra oficial, RN13), só população, só IPT-TIL ou pesos. Em cada região, os N primeiros formam a
+// lista principal e os N seguintes as reservas. Ajustes do cenário: vagas por região, limite de tempo até o aeroporto, tirar ou
+// fixar municípios. Fica salvo só neste navegador; a regra oficial volta com um clique.
+const CRITS={soma:["Soma das posições","regra oficial (RN13): posição em população + posição no IPT-TIL, menor soma primeiro"],pop:["População","só a população (Censo 2022, IBGE), da maior para a menor"],ipt:["IPT-TIL","só a nota IPT-TIL, da maior para a menor; empate: o mais populoso primeiro"],pers:["Pesos","soma ponderada das posições em população e no IPT-TIL"]};
+const CEN0={crit:"soma",w:50,vag:3,hmax:0,exc:[],fix:[]};
+const SC=(()=>{let o={};try{o=JSON.parse(localStorage.getItem("painel_cen")||"{}")||{};}catch(_){}const s={...CEN0,...o};s.exc=new Set(s.exc||[]);s.fix=new Set(s.fix||[]);if(!CRITS[s.crit])s.crit="soma";s.vag=Math.min(5,Math.max(1,+s.vag||3));s.w=Math.min(100,Math.max(0,+s.w||0));s.hmax=+s.hmax||0;return s;})();
+let CENS=(()=>{try{const a=JSON.parse(localStorage.getItem("painel_cens")||"[]");return Array.isArray(a)?a:[];}catch(_){return [];}})();
+const cenCfg=()=>({crit:SC.crit,w:SC.w,vag:SC.vag,hmax:SC.hmax,exc:[...SC.exc],fix:[...SC.fix]});
+const cenKey=()=>JSON.stringify(cenCfg());
+function cenSave(){try{localStorage.setItem("painel_cen",cenKey());}catch(_){}}
+function censSave(){try{localStorage.setItem("painel_cens",JSON.stringify(CENS));}catch(_){}}
+function cenIsOficial(){return SC.crit==="soma"&&SC.vag===3&&!SC.hmax&&!SC.exc.size&&!SC.fix.size;}
+function critName(c){c=c||cenCfg();const n=c.crit==="pers"?`Pesos (população ${c.w}% · IPT-TIL ${100-c.w}%)`:CRITS[c.crit][0];
+  return n+` · ${c.vag}+${c.vag}`+(c.hmax?` · ✈ até ${hm(c.hmax)}`:"")+(c.exc&&c.exc.length?` · ${c.exc.length} fora`:"")+(c.fix&&c.fix.length?` · ${c.fix.length} fixado${c.fix.length>1?"s":""}`:"");}
+function cenOut(id,m){if(SC.exc.has(id))return "manual";if(SC.hmax&&!SC.fix.has(id)&&m.aero&&m.aero.h!=null&&m.aero.h>SC.hmax)return "aero";return "";}
+function cenChanged(){cenSave();_sg=null;mapListKey="";renderAll();}
+const byPop=(a,b)=>(num(b.m.populacao)||0)-(num(a.m.populacao)||0)||a.m.nome.localeCompare(b.m.nome,"pt");
 function sugestao(r,R){
-  const meta=REG[r].meta;
-  const rk=Object.entries(M).filter(([,m])=>m.regiao===r&&passaCorte(m)).sort((a,b)=>(num(b[1].populacao)||0)-(num(a[1].populacao)||0)||a[1].nome.localeCompare(b[1].nome,"pt"))
-    .map(([id,m],i)=>({id,m,s:score(m,R).total,p:porte(num(m.populacao)),g:catReg(m),pp:i+1}));
-  [...rk].sort((a,b)=>((b.s??-1)-(a.s??-1))||(a.pp-b.pp)).forEach((x,i)=>{x.ps=i+1;x.sum=x.pp+x.ps;});
-  rk.sort((a,b)=>(a.sum-b.sum)||(a.pp-b.pp));
+  const meta=SC.vag;
+  const all=Object.entries(M).filter(([,m])=>m.regiao===r&&passaCorte(m)).map(([id,m])=>({id,m,s:score(m,R).total,p:porte(num(m.populacao)),g:catReg(m),out:cenOut(id,m),fix:SC.fix.has(id)}));
+  const pool=all.filter(x=>!x.out).sort(byPop),rest=all.filter(x=>x.out).sort(byPop);
+  pool.forEach((x,i)=>{x.pp=i+1;});
+  [...pool].sort((a,b)=>((b.s??-1)-(a.s??-1))||(a.pp-b.pp)).forEach((x,i)=>{x.ps=i+1;x.sum=x.pp+x.ps;});
+  const w=SC.w/100,key=x=>SC.crit==="pop"?x.pp:SC.crit==="ipt"?x.ps:SC.crit==="pers"?w*x.pp+(1-w)*x.ps:x.sum;
+  pool.forEach(x=>{x.key=key(x);});
+  pool.sort((a,b)=>(b.fix-a.fix)||(a.key-b.key)||(a.pp-b.pp));
   const fx=o=>o<=meta?0:o<=meta*2?1:2;
-  rk.forEach((x,i)=>{x.ord=i+1;});
-  rk.forEach(x=>{x.tie=new Set(rk.filter(y=>y.sum===x.sum).map(y=>fx(y.ord))).size>1;});
-  const top=rk.slice(0,meta*2).filter(x=>!inviavel(x.m));
-  return{rk,pri:top.slice(0,meta),sup:top.slice(meta),troca:null};
+  pool.forEach((x,i)=>{x.ord=i+1;});
+  pool.forEach(x=>{x.tie=SC.crit==="pop"||x.fix?false:new Set(pool.filter(y=>!y.fix&&(SC.crit==="ipt"?(y.s??-1)===(x.s??-1):Math.abs(y.key-x.key)<1e-9)).map(y=>fx(y.ord))).size>1;});
+  rest.forEach(x=>{x.pp=null;x.ps=null;x.sum=null;x.ord=null;x.tie=false;});
+  const top=pool.slice(0,meta*2).filter(x=>!inviavel(x.m));
+  return{rk:[...pool,...rest],pri:top.slice(0,meta),sup:top.slice(meta),troca:null};
 }
 function sugMap(){const R=rankMaps(),out={};for(const r of Object.keys(REG)){const g=sugestao(r,R);g.pri.forEach(x=>out[x.id]="Lista principal");g.sup.forEach(x=>out[x.id]="Reserva");}return out;}
 const sinalTI=m=>m.ti_ivcad===1; // RN08: variável do IVCAD (criança ou adolescente de 7 a 15 anos trabalhando), não a marcação do CadÚnico
@@ -1286,12 +1358,12 @@ function renderFunil(){const el=$("#mfun");if(!el||!Object.keys(M).length)return
   const row=(n,lab,txt,fc,fi)=>`<div class="mfr"><div class="mfb" style="width:${Math.max(n/tot*100,14)}%;--fc:${fc};${fi?`--fi:${fi}`:""}"><b>${n}</b><span>${lab}</span></div><p>${txt}</p></div>`;
   el.innerHTML=row(tot,"pré-selecionados","Anexo B do Termo de Referência (SNDCA/MDHC)","var(--band)")
     +row(el2,"elegíveis",`têm lixão em operação (RN03). Os outros ${tot-el2} ficam sem nota (RN06)`,"color-mix(in srgb,var(--accent) 25%,var(--surface))")
-    +row(pri,"na lista principal",`3 por região, pela soma das posições em população e no IPT-TIL · mais ${sup} reservas`,"var(--viz)","#fff")
-    +`<div class="mfreg">${regs.map(({r,g,e})=>{const n=Math.min(TOPPOP,e),d=[...Array(g.pri.length)].map(()=>"<i></i>").join("")+[...Array(g.sup.length)].map(()=>'<i class="r"></i>').join("")+[...Array(Math.max(0,TOPPOP-g.pri.length-g.sup.length))].map(()=>'<i class="e"></i>').join("");
+    +row(pri,"na lista principal",`${SC.vag} por região, ${cenIsOficial()?"pela soma das posições em população e no IPT-TIL":"no cenário em teste ("+esc(critName(cenCfg()))+"), não na regra oficial"} · mais ${sup} reservas`,"var(--viz)","#fff")
+    +`<div class="mfreg">${regs.map(({r,g,e})=>{const n=Math.min(TOPPOP,e),d=[...Array(g.pri.length)].map(()=>"<i></i>").join("")+[...Array(g.sup.length)].map(()=>'<i class="r"></i>').join("")+[...Array(Math.max(0,SC.vag*2-g.pri.length-g.sup.length))].map(()=>'<i class="e"></i>').join("");
       return `<div class="mrg" style="--c:${REG[r]?.c||"var(--ink-2)"}"><h5>${r}</h5><div class="mdots" title="cheio: lista principal · claro: reserva · tracejado: vaga sem candidato">${d}</div><small>${e} elegíveis · ${g.pri.length} + ${g.sup.length} reservas</small></div>`;}).join("")}</div>
     <p class="cs" style="margin:2px 0 0;font-size:12.5px">● lista principal · <span style="color:var(--q1-0)">●</span> reserva · ◌ vaga sem candidato</p>`;
 }
-function renderAll(){renderCalc();try{renderFunil();}catch(e){console.error(e);}if(!_inDK){_inDK=1;try{applyDK();}catch(_){}_inDK=0;}renderKpis();renderSets();renderMap();renderCharts();renderGoals();renderTable();renderSources();renderConf();renderExemplo();renderBases();if(state.openId)renderDetailDynamic();}
+function renderAll(){renderCalc();try{renderFunil();}catch(e){console.error(e);}if(!_inDK){_inDK=1;try{applyDK();}catch(_){}_inDK=0;}renderKpis();renderSets();renderMap();try{renderCrit();renderCen();}catch(e){console.error(e);}renderCharts();renderGoals();renderTable();renderSources();renderConf();renderExemplo();renderBases();if(state.openId)renderDetailDynamic();}
 const f2=v=>v==null?"–":v.toFixed(2).replace(".",","), f1=v=>v==null?"–":v.toFixed(3).replace(".",",");
 function renderExemplo(){
   const sel=$("#exSel"); if(!sel||!Object.keys(M).length) return;
@@ -1344,14 +1416,14 @@ function card(title,sub,inner,wide,src){return `<div class="card${wide?" wide":"
 
 const GRP=g=>g===1?"com catadores regularizados":g===0?"sem catadores regularizados":"grupo sem dado";
 function popRank(r){return Object.entries(M).filter(([,m])=>m.regiao===r&&passaCorte(m)).sort((a,b)=>(num(b[1].populacao)||0)-(num(a[1].populacao)||0)||a[1].nome.localeCompare(b[1].nome,"pt")).map(([id])=>id);}
-function renderMontagem(){const el=$("#montagem");if(!el||!Object.keys(M).length)return;const R=rankMaps(),f=v=>v==null?"–":v.toFixed(1).replace(".",",");
-  el.innerHTML=Object.keys(REG).map(r=>{const g=sugestao(r,R),P=new Set(g.pri.map(x=>x.id)),S=new Set(g.sup.map(x=>x.id)),X=Object.fromEntries(g.rk.map(x=>[x.id,x])),ids=popRank(r);
-    const row=(id)=>{const m=M[id],x=X[id],sc=x.s,ap=s25(m).ap||[],d=m.decisao&&m.decisao!=="analise"?DEC[m.decisao]:null;
-      return `<tr class="${P.has(id)||S.has(id)?"":"out"}"><td class="n">${x.pp}º</td><td><button type="button" class="mlink" data-open="${id}">${DUV[id]?'<span title="Alerta de fonte estadual: veja a ficha">⚑ </span>':""}${esc(m.nome)} <span class="muted">· ${m.uf}</span></button><small class="mg">${GRP(catReg(m))}${m.aero?` · ✈ ${m.aero.est?"≈":""}${hm(m.aero.h)} de carro até ${esc(m.aero.cidade)}`:""}</small></td>
-        <td class="n">${fmtInt(num(m.populacao))}</td><td class="nb"><span class="b"><i style="width:${(sc||0)/MAXN*100}%"></i></span><b>${fI(sc)}</b> <span class="muted">${x.ps}º</span></td><td class="n"><b>${x.sum}</b></td>
-        <td>${P.has(id)?'<small class="tg">principal</small>':S.has(id)?`<small class="tg s">reserva ${g.sup.findIndex(y=>y.id===id)+1}</small>`:""}${x.tie?' <small class="muted" title="Empate na soma que decide quem entra: não há regra de desempate; o mais populoso vem primeiro">= empate</small>':""}${inviavel(m)?' <small class="muted">inviável (RN17)</small>':""}${d?` <small class="dtg" style="--c:${d[1]}">equipe: ${d[0].toLowerCase()}</small>`:""}</td></tr>`;};
-    return `<div class="mpr" style="--c:${REG[r].c}"><h4>${r} <span>${ids.length} elegíve${ids.length===1?"l":"is"} · ${REG[r].meta} vagas</span></h4>
-      ${ids.length?`<table class="mpt"><thead><tr><th class="n" title="Posição em população na região">Nº pop.</th><th>Município</th><th class="n">População</th><th title="Nota e posição na nota dentro da região">IPT-TIL · posição</th><th class="n" title="Posição em população + posição no IPT-TIL">Soma</th><th>Sugestão do índice</th></tr></thead><tbody>${ids.map(row).join("")}</tbody></table>`:'<p class="muted">Nenhum elegível na região.</p>'}</div>`;}).join("");}
+function renderMontagem(){const el=$("#montagem");if(!el||!Object.keys(M).length)return;const R=rankMaps();
+  el.innerHTML=Object.keys(REG).map(r=>{const g=sugestao(r,R),P=new Set(g.pri.map(x=>x.id)),S=new Set(g.sup.map(x=>x.id));
+    const row=x=>{const m=x.m,id=x.id,d=m.decisao&&m.decisao!=="analise"?DEC[m.decisao]:null;
+      return `<tr class="${P.has(id)||S.has(id)?"":"out"}"><td class="n">${x.ord?x.ord+"º":"–"}</td><td><button type="button" class="mlink" data-open="${id}">${DUV[id]?'<span title="Alerta de fonte estadual: veja a ficha">⚑ </span>':""}${esc(m.nome)} <span class="muted">· ${m.uf}</span></button><small class="mg">${GRP(catReg(m))}${m.aero?` · ✈ ${m.aero.est?"≈":""}${hm(m.aero.h)} de carro até ${esc(m.aero.cidade)}`:""}</small></td>
+        <td class="n">${fmtInt(num(m.populacao))} <span class="muted">${x.pp?x.pp+"º":""}</span></td><td class="nb"><span class="b"><i style="width:${(x.s||0)/MAXN*100}%"></i></span><b>${fI(x.s)}</b> <span class="muted">${x.ps?x.ps+"º":""}</span></td><td class="n"><b>${x.sum??"–"}</b></td>
+        <td>${cenTag(g,id)}${d?` <small class="dtg" style="--c:${d[1]}">equipe: ${d[0].toLowerCase()}</small>`:""}</td><td class="n">${cenBtns(id)}</td></tr>`;};
+    return `<div class="mpr" style="--c:${REG[r].c}"><h4>${r} <span>${g.rk.length} elegíve${g.rk.length===1?"l":"is"} · ${SC.vag} vagas + ${SC.vag} reservas</span></h4>
+      ${g.rk.length?`<table class="mpt"><thead><tr><th class="n" title="Posição na região pelo critério ativo">Nº</th><th>Município</th><th class="n${actP()?" act":""}" title="População e posição em população na região">População · pos.</th><th class="${actI()?"act":""}" title="Nota e posição na nota dentro da região">IPT-TIL · pos.</th><th class="n${SC.crit==="soma"?" act":""}" title="Posição em população + posição no IPT-TIL">Soma</th><th>Cenário</th><th></th></tr></thead><tbody>${g.rk.map(row).join("")}</tbody></table>`:'<p class="muted">Nenhum elegível na região.</p>'}</div>`;}).join("");}
 function renderCharts(){renderMontagem();if(!$("#charts"))return;
   const L=Object.entries(M).map(([id,m])=>({id,...m})); if(!L.length) return;
   const T=L.length, byReg=r=>L.filter(m=>m.regiao===r);
@@ -1560,7 +1632,7 @@ function flush(id){
 function flushAll(){Object.keys(pending).forEach(flush);}
 function setField(id,f,raw,delay){
   let v=raw; if(f==="populacao"||f==="conf_pessoas") v=num(raw); else if(f==="pobreza"||f==="pbf") v=numDec(raw);
-  M[id]={...M[id],[f]:v}; renderKpis();renderSets();renderMap();renderCharts();renderGoals();renderTable();renderConf(); if(state.openId===id) renderDetailDynamic();
+  M[id]={...M[id],[f]:v}; renderKpis();renderSets();renderMap();try{renderCrit();renderCen();}catch(e){console.error(e);}renderCharts();renderGoals();renderTable();renderConf(); if(state.openId===id) renderDetailDynamic();
   queue(id,{[f]:v},delay);
 }
 
@@ -1622,12 +1694,12 @@ $("#btnExport").addEventListener("click",async()=>{
     "IVE (0–1)":s.ive==null?null:Math.round(s.ive*1000)/1000,"DRI (0–1)":s.dri==null?null:Math.round(s.dri*1000)/1000,"IPT-TIL (0–1)":s.total==null?null:Math.round(s.total*10000)/10000,"Sugestão pela regra":SG[id]||"","Ordem na região (RN13)":OR[id]?.ord??null,"Empate no corte":OR[id]?.tie?"Sim":"",
     "Nº de registros":newsOf(id).length,"Decisão":DEC[m.decisao]?.[0]||"","Observações":m.obs||"","Atualizado em":m.atualizado||""};});
   const rows2=Object.values(N).map(n=>{const m=M[n.mun]||{};return{"Nº":m.n,"Município":m.nome,"UF":m.uf,"Região":m.regiao,"Título":n.titulo||"","Fonte":n.fonte||"","Ano":n.ano??"","Tipo":n.tipo||"","Link":n.url||"","O que diz":n.resumo||"","Origem":n.origem||"","Registrado em":n.criado||"","Conferida":n.conferido?"Sim":"Não"};}).sort((a,b)=>(a["Nº"]||0)-(b["Nº"]||0)||(b.Ano||0)-(a.Ano||0));
-  const rows3=Object.entries(REG).map(([r,c])=>{const l=Object.values(M).filter(m=>m.regiao===r),g=sugestao(r,R);return{"Região":r,"Na lista":l.length,"Vagas":c.meta,"Elegíveis":l.filter(passaCorte).length,"Selecionados":l.filter(m=>m.decisao==="selecionado").length,"Reserva":l.filter(m=>m.decisao==="reserva").length,"Não elegíveis":l.filter(m=>!passaCorte(m)).length,"Municípios selecionados":l.filter(m=>m.decisao==="selecionado").map(m=>`${m.nome} (${m.uf})`).join("; "),"Lista principal sugerida":g.pri.map(x=>`${x.m.nome} (${x.m.uf})`).join("; "),"Reserva sugerida":g.sup.map(x=>`${x.m.nome} (${x.m.uf})`).join("; ")};});
+  const rows3=Object.entries(REG).map(([r,c])=>{const l=Object.values(M).filter(m=>m.regiao===r),g=sugestao(r,R);return{"Região":r,"Na lista":l.length,"Vagas":c.meta,"Elegíveis":l.filter(passaCorte).length,"Selecionados":l.filter(m=>m.decisao==="selecionado").length,"Reserva":l.filter(m=>m.decisao==="reserva").length,"Não elegíveis":l.filter(m=>!passaCorte(m)).length,"Municípios selecionados":l.filter(m=>m.decisao==="selecionado").map(m=>`${m.nome} (${m.uf})`).join("; "),"Cenário da sugestão":cenIsOficial()?"Regra oficial (soma das posições)":critName(cenCfg()),"Lista principal sugerida":g.pri.map(x=>`${x.m.nome} (${x.m.uf})`).join("; "),"Reserva sugerida":g.sup.map(x=>`${x.m.nome} (${x.m.uf})`).join("; ")};});
   const rows4=ms.map(([id,m])=>{const s=score(m,R),o={"Nº":m.n,"Município":m.nome,"UF":m.uf,"Região":m.regiao,"Elegível":passaCorte(m)?"Sim":"Não"};
     for(const k of VK){const v=indVal(m,k);o[VLAB[k]+" · valor"]=v==null?null:Math.round(v*100)/100;o[VLAB[k]+" · 0 a 1"]=s.parts[k]==null?null:Math.round(s.parts[k]*1000)/1000;}
     o["IVE"]=s.ive==null?null:Math.round(s.ive*1000)/1000;o["DRI"]=s.dri==null?null:Math.round(s.dri*1000)/1000;o["IPT-TIL = √(IVE × DRI)"]=s.total==null?null:Math.round(s.total*10000)/10000;return o;});
   const wb=XLSX.utils.book_new(), w=(rows,widths,name)=>{const ws=XLSX.utils.json_to_sheet(rows);ws["!cols"]=widths.map(x=>({wch:x}));XLSX.utils.book_append_sheet(wb,ws,name);};
-  w(rows3,[14,10,6,10,13,10,13,60,60,60],"Resumo por região");
+  w(rows3,[14,10,6,10,13,10,13,60,20,60,60],"Resumo por região");
   w(rows1,[5,13,5,18,24,32,18,16,20,10,12,11,12,12,12,12,10,10,12,10,12,12,10,12,80,12],"Municípios");
   w(rows2,[5,24,5,13,40,24,6,22,50,80,22,12,10],"Registros");
   w(rows4,[5,24,5,13,10,...VK.flatMap(()=>[14,10]),8,8,14],"Memória de cálculo");
@@ -1760,7 +1832,7 @@ function fontesEstHTML(m){const f=m.fontes_est||[];if(!f.length)return "";
 function duvNote(id){const d=DUV[id];return d?`<div class="vnote duvn"><b>⚑ Alerta de fonte estadual</b><p><b>O que diz a fonte:</b> ${esc(d.saiu)}.<br><b>O que dizem os dados federais:</b> ${esc(d.diz)}.<br><b>O que causa a dúvida:</b> ${esc(d.causa)}<br><b>Pelas regras:</b> lixão em encerramento ou destino a aterro não tira a elegibilidade; se o município for inviável, entra a reserva seguinte da região (RN17).</p></div>`:"";}
 function rotaURL(m){const a=AIR.find(x=>x[0]===AIRNEAR[String(m.ibge)]?.[0]),o=SEDELL[String(m.ibge)];if(!a||!o)return "";const d=AIRLL[a[0]];
   return "https://www.google.com/maps/dir/?api=1&travelmode=driving&origin="+o.join(",")+"&destination="+(d?d.join(","):encodeURIComponent("Aeroporto "+a[1]+", "+a[2]+" - "+a[3]));}
-let mapAir=true, mapS=new Set(["47"]), mapSort={k:"pop",d:-1}, mapListKey="";
+let mapAir=true, mapS=new Set(["47"]), mapSort={k:"rk",d:1}, mapListKey="";
 const mHas=v=>mapS.has(v);let mapPinReg=null;
 const inMapList=(id,m,sg)=>{const hi=mapHi();return hi.length?hi.some(v=>inMapSet(id,m,sg,v)):inMapSet(id,m,sg);};
 const mapHi=()=>[mHas("85")&&mHas("47")?"47":null,mHas("pri")?"pri":null,mHas("sup")?"sup":null].filter(Boolean);
@@ -1787,8 +1859,8 @@ function renderMap(){const svg=$("#mapsvg");if(!svg||!Object.keys(M).length)retu
    $("#m-uf").innerHTML=true?Object.entries(UFLAB).map(([uf,[x,y,sm]])=>{const n=cnt[uf]||0,u=1/k,zero=!n,c=zero?"var(--line-strong)":(REG[rg[uf]]?.c||"var(--ink)");
      if(!sm&&GEO.caps.some(([,,cx,cy])=>Math.abs(cx-x)<45/k&&Math.abs(cy-y)<16/k))y-=26/k;
      const tb=!mHas("85")?(all[uf]?`${n} de ${all[uf]} pré-selecionados seguem com lixão em operação`:"Nenhum município pré-selecionado"):(n?`${n} município${n>1?"s":""} pré-selecionado${n>1?"s":""}`:"Nenhum município pré-selecionado");
-     const tip=tipAttr(UFNOME[uf]||uf,tb,1),num=String(n);
-     {const r=(sm?(num.length>1?15:13.5):(num.length>1?21:19))*u,fs=(sm?14:19)*u;return `<g class="ufn${zero?" z":""}" ${tip}><circle cx="${x}" cy="${y}" r="${r}" style="fill:color-mix(in srgb, ${c} 22%, var(--surface));stroke:var(--map-line);stroke-width:${0.8*u}px"/><text class="ufv" x="${x}" y="${y+fs*0.36}" style="font-size:${fs}px;fill:color-mix(in srgb, ${c} 80%, var(--ink))">${num}</text></g>`;}
+     const tip=tipAttr(UFNOME[uf]||uf,tb+(n?" · clique para ver o ranking dos municípios":""),1)+(n?` data-ufsel="${uf}" role="button" tabindex="0"`:""),num=String(n);
+     {const r=(sm?(num.length>1?15:13.5):(num.length>1?21:19))*u,fs=(sm?14:19)*u;return `<g class="ufn${zero?" z":" ck"}${mapUF===uf&&mapTab==="uf"?" on":""}" ${tip}><circle cx="${x}" cy="${y}" r="${r}" style="fill:color-mix(in srgb, ${c} 22%, var(--surface));stroke:var(--map-line);stroke-width:${0.8*u}px"/><text class="ufv" x="${x}" y="${y+fs*0.36}" style="font-size:${fs}px;fill:color-mix(in srgb, ${c} 80%, var(--ink))">${num}</text></g>`;}
      const h=24*u,dw=(num.length>1?h+7*u:h),tail=!mHas("85")&&all[uf]?` de ${all[uf]}`:"",tw=(uf.length*7.6+tail.length*5.9+13)*u,w=dw+tw,x0=x-w/2,y0=y-h/2;
      return `<g class="ufn${zero?" z":""}" ${tip}><rect class="ufb2" x="${x0}" y="${y0}" width="${w}" height="${h}" rx="${h/2}" style="stroke:${c};stroke-width:${1.4*u}px"/><rect x="${x0}" y="${y0}" width="${dw}" height="${h}" rx="${h/2}" style="fill:${c}"/><text class="ufv" x="${x0+dw/2}" y="${y+4.8*u}" style="font-size:${13.5*u}px">${num}</text><text class="ufs" x="${x0+dw+6*u}" y="${y+4*u}" style="font-size:${11*u}px">${uf}${tail?`<tspan class="uft" style="font-size:${10*u}px">${tail}</tspan>`:""}</text></g>`;}).join(""):"";}
   const cp=GEO.caps.map(([n,uf,x,y])=>`<g class="cap"><circle cx="${x}" cy="${y}" r="${3.5/k}"/><text x="${x+6/k}" y="${y+4/k}" style="font-size:${12/k}px;stroke-width:${3/k}px">${esc(n)}</text></g>`).join("");
@@ -1798,21 +1870,112 @@ function renderMap(){const svg=$("#mapsvg");if(!svg||!Object.keys(M).length)retu
   $("#m-air").innerHTML=mapAir?AIRV.map(([ic,n,mu,uf,x,y,v])=>{const sc=0.64/k;return `<g class="air" transform="translate(${x},${y}) scale(${sc}) rotate(-12) translate(-20.5,-13)" ${tipAttr("✈ "+(AIRINFO[ic]?.[0]||n),`${mu}/${uf} · ${AIRINFO[ic]?.[2]||""} · ${AIRINFO[ic]?.[3]||""}`,1)}><rect x="2" y="2" width="37" height="21" fill="transparent" stroke="none"/><path class="aw2" d="M21 10.5L26.5 3.2L29 3.4L26 10.2Z"/><path class="ar" d="M29.5 10.6L34.6 2.2L38.4 2.6L36.6 12.2Z"/><path class="af" d="M3 15C3 10.6 7.6 8.6 13.5 8.6L31 9.4C35.2 9.7 37.8 11.3 37.8 13.1C37.8 14.9 35.2 16.1 31 16.6L13.5 19.1C7.4 19.7 3 18.2 3 15Z"/><path class="ar" d="M30.6 14.2L38.6 16.8L37.4 18.6L29.8 16.4Z"/><path class="ast" d="M4.6 17.2C7.6 18.7 10.6 18.8 13.8 18.4L30.6 16.1"/><path class="ac" d="M3.3 13.6C3.8 11.2 5.9 9.8 8.6 9.5L9.5 12.7C7.3 13.1 5.2 13.5 3.3 13.6Z"/><circle class="ac" cx="12.6" cy="12.1" r="1.05"/><circle class="ac" cx="15.9" cy="12" r="1.05"/><circle class="ac" cx="19.2" cy="11.9" r="1.05"/><circle class="ac" cx="22.5" cy="11.9" r="1.05"/><circle class="ac" cx="25.8" cy="11.9" r="1.05"/><ellipse class="ar" cx="19.4" cy="18.9" rx="3.2" ry="1.7"/><path class="aw" d="M15.5 14.6L24.6 14.2L30.4 22L27.6 22.6Z"/></g>`;}).join(""):"";
   const flg=L.filter(([id])=>DUV[id]).map(([id,m])=>{const c=GEO.coords[String(m.ibge)];if(!c)return "";const u=1/k;return `<g class="duvf" transform="translate(${c[0]},${c[1]}) scale(${u})"><path d="M0 0V-17" /><path class="fl" d="M0 -17H10L7.5 -13.5L10 -10H0Z"/><circle r="2.2"/></g>`;}).join("");
   const pinAt=(m,big)=>{const c=m&&GEO.coords[String(m.ibge)];if(!c)return "";return `<g class="mpin" transform="translate(${c[0]},${c[1]}) scale(${(big?1:0.8)/k})"><ellipse cx="0" cy="0" rx="5" ry="2" class="sh"/><path d="M0 0C-2.5-7-11-12-11-21a11 11 0 1 1 22 0c0 9-8.5 14-11 21z"/><circle cx="0" cy="-21" r="4.2"/></g>`;};
-  const pin=mapSel?pinAt(M[mapSel],1):mapPinReg?Object.entries(M).filter(([id,m])=>m.regiao===mapPinReg&&inMapList(id,m,sg)).sort((a,b)=>GEO.coords[String(a[1].ibge)]?.[1]-GEO.coords[String(b[1].ibge)]?.[1]).map(([,m])=>pinAt(m)).join(""):"";
+  const pin=mapSel?pinAt(M[mapSel],1):(mapTab==="uf"&&mapUF)?Object.entries(M).filter(([,m])=>m.uf===mapUF&&passaCorte(m)).map(([,m])=>pinAt(m)).join(""):mapPinReg?Object.entries(M).filter(([id,m])=>m.regiao===mapPinReg&&inMapList(id,m,sg)).sort((a,b)=>GEO.coords[String(a[1].ibge)]?.[1]-GEO.coords[String(b[1].ibge)]?.[1]).map(([,m])=>pinAt(m)).join(""):"";
   $("#m-top").innerHTML=cp+flg+hit+pin; mapView();
   {const w=$("#duvwrap");if(w&&!w.dataset.ok){w.dataset.ok="1";w.innerHTML=duvHTML();}}
   $("#maplg").innerHTML=Object.entries(REG).map(([r,v])=>`<span><i style="--c:${v.c};border-radius:3px"></i>${r} (${L.filter(([,m])=>m.regiao===r).length})</span>`).join("")+`<span><i style="--c:var(--ink);width:8px;height:8px"></i>Capital</span><span><i style="--c:var(--map-dim);border-radius:3px;border:1px solid var(--map-uf);box-sizing:border-box"></i>Estado sem município nesta seleção</span>`+(mHas("pri")?`<span><i style="--c:transparent;border-radius:3px;border:2.5px solid var(--ink);box-sizing:border-box"></i>Contorno grosso: lista principal</span>`:"")+(mHas("sup")?`<span><i style="--c:transparent;border-radius:3px;border:2px dashed var(--ink);box-sizing:border-box"></i>Contorno tracejado: reserva</span>`:"")+(mapHi().length?`<span><i style="--c:var(--ink-2);opacity:.4;border-radius:3px"></i>Cor clara: fora do destaque</span>`:"")+(L.some(([id])=>DUV[id])?`<span><svg viewBox="-2 -19 14 22" aria-hidden="true"><path d="M0 0V-17" stroke="var(--ink)" stroke-width="1.6"/><path d="M0 -17H10L7.5 -13.5L10 -10H0Z" fill="var(--warn)"/></svg>Alerta de fonte estadual (${L.filter(([id])=>DUV[id]).length})</span>`:"")+(mapAir?`<span><svg width="26" height="16" viewBox="1 -1 39 27" aria-hidden="true" style="flex:none" class="airlg"><g transform="rotate(-12 20.5 13)"><path class="aw2" d="M21 10.5L26.5 3.2L29 3.4L26 10.2Z"/><path class="ar" d="M29.5 10.6L34.6 2.2L38.4 2.6L36.6 12.2Z"/><path class="af" d="M3 15C3 10.6 7.6 8.6 13.5 8.6L31 9.4C35.2 9.7 37.8 11.3 37.8 13.1C37.8 14.9 35.2 16.1 31 16.6L13.5 19.1C7.4 19.7 3 18.2 3 15Z"/><path class="ar" d="M30.6 14.2L38.6 16.8L37.4 18.6L29.8 16.4Z"/><path class="ast" d="M4.6 17.2C7.6 18.7 10.6 18.8 13.8 18.4L30.6 16.1"/><path class="ac" d="M3.3 13.6C3.8 11.2 5.9 9.8 8.6 9.5L9.5 12.7C7.3 13.1 5.2 13.5 3.3 13.6Z"/><circle class="ac" cx="12.6" cy="12.1" r="1.05"/><circle class="ac" cx="15.9" cy="12" r="1.05"/><circle class="ac" cx="19.2" cy="11.9" r="1.05"/><circle class="ac" cx="22.5" cy="11.9" r="1.05"/><circle class="ac" cx="25.8" cy="11.9" r="1.05"/><ellipse class="ar" cx="19.4" cy="18.9" rx="3.2" ry="1.7"/><path class="aw" d="M15.5 14.6L24.6 14.2L30.4 22L27.6 22.6Z"/></g></svg>Aeroporto com voo regular (${AIRV.length})</span>`:"");
   $("#mapzoom").innerHTML=`<span class="zgrp" role="group" aria-label="Quais municípios">`+MAPSETS.map(([v,l])=>{const n=Object.entries(M).filter(([id,m])=>inMapSet(id,m,sg,v)).length;return `<button type="button" class="btn small${mapBtnOn(v)?" primary":""}" data-mset="${v}" aria-pressed="${mapBtnOn(v)}">${n} ${l}</button>`;}).join("")+`</span>`+`<button type="button" class="btn small${mapAir?" primary":""}" data-air="1" aria-pressed="${mapAir}">✈ Aeroportos</button>`+`<button type="button" class="btn small" data-png="1">⬇ Baixar mapa (PNG)</button>`+`<span class="zgrp"><button type="button" class="btn small zb" data-zs="1.6" aria-label="Aproximar">+</button><button type="button" class="btn small zb" data-zs="0.625" aria-label="Afastar">−</button></span>`;
   if(mapSel)renderMapInfo(mapSel);else renderMapList();}
-function renderMapList(){const el=$("#mapinfo");if(!el||!Object.keys(M).length)return;const key=[...mapS].sort().join()+mapPinReg+mapSort.k+mapSort.d+Object.keys(M).length;if(key===mapListKey)return;mapListKey=key;
-  const R=rankMaps(),sg=sugMap(),hi=mapHi(),L=Object.entries(M).filter(([id,m])=>inMapList(id,m,sg)).map(([id,m])=>({id,m,pop:num(m.populacao),ipt:score(m,R).total}));
-  const {k,d}=mapSort;L.sort((a,b)=>k==="nome"?d*a.m.nome.localeCompare(b.m.nome,"pt"):((a[k]??-1)-(b[k]??-1))*d||a.m.nome.localeCompare(b.m.nome,"pt"));
+const UFN={AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
+let mapTab="mun",mapUF=null;
+const actP=()=>SC.crit==="pop"||SC.crit==="pers",actI=()=>SC.crit==="ipt"||SC.crit==="pers";
+function cenOrd(R){const O={};Object.keys(REG).forEach(r=>{const g=sugestao(r,R);g.rk.forEach(x=>{O[x.id]={x,g};});});return O;}
+function cenBtns(id,long){const ex=SC.exc.has(id),fx=SC.fix.has(id);
+  return `<span class="cbtns"><button type="button" class="btn small${ex?" primary":""}" data-cx="${id}" title="${ex?"Voltar ao cenário":"Tirar do cenário"}" aria-pressed="${ex}">${ex?"↺":"✕"}${long?(ex?" Voltar ao cenário":" Tirar do cenário"):""}</button><button type="button" class="btn small${fx?" primary":""}" data-cf="${id}" title="${fx?"Desafixar":"Fixar na frente da região"}" aria-pressed="${fx}">📌${long?(fx?" Desafixar":" Fixar na frente da região"):""}</button></span>`;}
+function cenTag(g,id){const x=g.rk.find(y=>y.id===id);if(!x)return "";
+  if(x.out)return `<small class="muted">${x.out==="aero"?`fora do cenário: ✈ mais de ${hm(SC.hmax)}`:"fora do cenário"}</small>`;
+  const P=g.pri.some(y=>y.id===id),si=g.sup.findIndex(y=>y.id===id);
+  return (x.fix?'<span title="Fixado na frente da região">📌</span> ':"")+(P?'<small class="tg">principal</small>':si>=0?`<small class="tg s">reserva ${si+1}</small>`:"")+(x.tie?' <small class="muted" title="Empate no critério que decide quem entra: o mais populoso vem primeiro">= empate</small>':"")+(inviavel(x.m)?' <small class="muted">inviável (RN17)</small>':"");}
+function critHTML(full){
+  const b=(k,l)=>`<button type="button" class="btn small${SC.crit===k?" primary":""}" data-crit="${k}" aria-pressed="${SC.crit===k}">${l}</button>`;
+  let h=`<span class="cl">Critério da lista principal:</span><span class="zgrp" role="group" aria-label="Critério da lista principal">${b("soma","Soma das posições (regra oficial)")}${b("pop","População")}${b("ipt","IPT-TIL")}${b("pers","Pesos")}</span>`;
+  if(SC.crit==="pers")h+=`<label class="cw">População <b>${SC.w}%</b><input type="range" min="0" max="100" step="5" value="${SC.w}" data-cw="1" aria-label="Peso da população (o resto vai para o IPT-TIL)">IPT-TIL <b>${100-SC.w}%</b></label>`;
+  if(full){const nA=Object.entries(M).filter(([id,m])=>passaCorte(m)&&cenOut(id,m)==="aero").length;
+    h+=`<span class="crow"><label>Vagas por região <select class="field" data-cvag="1">${[1,2,3,4,5].map(n=>`<option value="${n}"${SC.vag===n?" selected":""}>${n} principais + ${n} reservas</option>`).join("")}</select></label>
+      <label>✈ Tempo até o aeroporto <select class="field" data-chmax="1">${[0,1,1.5,2,2.5,3,4,5,6].map(n=>`<option value="${n}"${SC.hmax===n?" selected":""}>${n?"até "+hm(n)+" de carro":"sem limite"}</option>`).join("")}</select></label>${SC.hmax?`<small class="muted">${nA} elegíve${nA===1?"l fica":"is ficam"} de fora</small>`:""}
+      ${cenIsOficial()?"":`<button type="button" class="btn small" data-creset="1">↺ Voltar à regra oficial</button>`}</span>`;
+    if(SC.exc.size||SC.fix.size)h+=`<span class="crow">${SC.exc.size?`<span class="cchips">Tirados do cenário: ${[...SC.exc].filter(id=>M[id]).map(id=>`<button type="button" class="chip res" data-cx="${id}" title="Voltar ao cenário">${esc(M[id].nome)} · ${M[id].uf} ↺</button>`).join(" ")}</span>`:""}${SC.fix.size?`<span class="cchips">Fixados: ${[...SC.fix].filter(id=>M[id]).map(id=>`<button type="button" class="chip res" data-cf="${id}" title="Desafixar">📌 ${esc(M[id].nome)} · ${M[id].uf} ✕</button>`).join(" ")}</span>`:""}</span>`;}
+  h+=`<p class="cx">${cenIsOficial()?"<b>Regra oficial.</b>":`<b class="ctest">Cenário em teste</b>, não é a regra oficial.`} Critério: <b>${esc(SC.crit==="pers"?`população ${SC.w}% e IPT-TIL ${100-SC.w}%`:CRITS[SC.crit][0])}</b>, ${esc(SC.crit==="pers"?"soma ponderada das posições na região, menor primeiro":CRITS[SC.crit][1])}. Em cada região, os ${SC.vag} primeiros vão para a lista principal e os ${SC.vag} seguintes para as reservas.${full?" Na lista, nos rankings e na ficha: ✕ tira um município do cenário e 📌 fixa na frente da região. O mapa, as listas, os rankings e a planilha seguem o cenário.":" Ajuste vagas, aeroporto e exceções na seção 2, acima do mapa."}</p>`;
+  return h;}
+function renderCrit(){const a=$("#critMap"),b=$("#critMont");if(a)a.innerHTML=critHTML(1);if(b)b.innerHTML=critHTML(0);}
+function ufStats(){const sg=sugMap(),S={};Object.entries(M).forEach(([id,m])=>{const s=S[m.uf]||(S[m.uf]={uf:m.uf,r:m.regiao,e:0,a:0,p:0,s:0,pop:0});s.a++;if(passaCorte(m)){s.e++;s.pop+=num(m.populacao)||0;}if(sg[id]==="Lista principal")s.p++;if(sg[id]==="Reserva")s.s++;});return Object.values(S);}
+function ufListHTML(){const S=ufStats(),mx=Math.max(1,...S.map(s=>s.e)),E=Object.values(M).filter(passaCorte).length;
+  return `<h3 style="font-size:20px">Estados com mais municípios elegíveis</h3><p class="mi-sub">Quantos dos ${E} elegíveis há em cada estado, por região. Clique num estado para ver o ranking dos municípios dele por população e por IPT-TIL (ou clique no número do estado no mapa). P e R contam a lista principal e as reservas do cenário.</p>
+  <table class="uflist"><colgroup><col style="width:2.6em"><col><col style="width:108px"><col style="width:64px"></colgroup><tbody>${Object.keys(REG).map(r=>{const L=S.filter(s=>s.r===r&&s.e>0).sort((a,b)=>b.e-a.e||b.pop-a.pop||a.uf.localeCompare(b.uf)),Z=S.filter(s=>s.r===r&&!s.e),tot=L.reduce((t,s)=>t+s.e,0);
+    return `<tr class="rg"><td colspan="4" style="--c:${REG[r].c}">${r} <span>${tot} elegíve${tot===1?"l":"is"} em ${L.length} estado${L.length===1?"":"s"}</span></td></tr>`
+     +L.map(s=>`<tr><td class="rk">${L.findIndex(y=>y.e===s.e)+1}º</td><td><button type="button" class="ufbtn" data-ufsel="${s.uf}">${esc(UFN[s.uf]||s.uf)} <span class="muted">· ${s.uf}</span></button></td><td style="--c:${REG[r].c}"><span class="bar" style="width:${Math.round(s.e/mx*56)}px"></span><b>${s.e}</b> <small>de ${s.a}</small></td><td class="n"><small>${[s.p?s.p+" P":"",s.s?s.s+" R":""].filter(Boolean).join(" · ")}</small></td></tr>`).join("")
+     +(Z.length?`<tr><td></td><td colspan="3"><small>Sem elegível: ${Z.map(s=>`${esc(UFN[s.uf]||s.uf)} (${s.a} pré-selecionado${s.a>1?"s":""})`).join(", ")}</small></td></tr>`:"");}).join("")}</tbody></table>
+  <p class="ss" style="margin-top:10px">Posição pelo número de elegíveis no estado; empate divide a posição, e a ordem segue a população somada. “de N” são os pré-selecionados do estado (Anexo B do TdR).</p>`;}
+function ufDetailHTML(uf){const R=rankMaps(),O=cenOrd(R),L=Object.entries(M).filter(([id,m])=>m.uf===uf&&passaCorte(m)&&O[id]).map(([id,m])=>({id,m,x:O[id].x,g:O[id].g})),nA=Object.values(M).filter(m=>m.uf===uf).length;
+  const back=`<p style="margin:0 0 8px"><button type="button" class="btn small" data-ufsel="">← Voltar aos estados</button></p><h3>${esc(UFN[uf]||uf)} · ${uf}</h3>`;
+  if(!L.length)return back+`<p class="mi-sub">Nenhum dos ${nA} pré-selecionados do estado é elegível.</p>`;
+  const r=L[0].m.regiao,pop=y=>num(y.m.populacao)||0,byP=[...L].sort((a,b)=>pop(b)-pop(a)),byI=[...L].sort((a,b)=>((b.x.s??-1)-(a.x.s??-1))||pop(b)-pop(a));
+  const pP=id=>byP.findIndex(y=>y.id===id)+1,pI=id=>byI.findIndex(y=>y.id===id)+1;
+  L.sort((a,b)=>(a.x.ord??999)-(b.x.ord??999)||pP(a.id)-pP(b.id));let k=0;
+  return back+`<p class="mi-sub">Região ${r} · ${L.length} elegíve${L.length===1?"l":"is"} de ${nA} pré-selecionado${nA>1?"s":""}. Nº segue o critério ativo (${esc(SC.crit==="pers"?`pesos ${SC.w}/${100-SC.w}`:CRITS[SC.crit][0])}); embaixo da população e da nota, a posição no estado. “Na região” é a posição no ${r} e a marca do cenário (${SC.vag} principais por região).</p>
+  <table class="mlist"><thead><tr><th class="n"><span class="rkh">Nº</span></th><th><span class="rkh" style="text-align:left">Município</span></th><th class="n${actP()?" act":""}"><span class="rkh">População</span></th><th class="n${actI()?" act":""}"><span class="rkh">IPT-TIL</span></th><th><span class="rkh" style="text-align:left">Na região</span></th></tr></thead><tbody>
+  ${L.map(y=>`<tr><td class="n rk">${y.x.out?"–":(++k)+"º"}</td><td><button type="button" class="mlink" data-map="${y.id}"><i style="--c:${REG[r].c}"></i>${esc(y.m.nome)}</button>${DUV[y.id]?' <small title="Alerta de fonte estadual">⚑</small>':""}<div style="margin-top:4px">${cenBtns(y.id)}</div></td><td class="n">${fmtInt(pop(y))}<small class="pos">${pP(y.id)}º no estado</small></td><td class="n"><b>${fI(y.x.s)}</b><small class="pos">${pI(y.id)}º no estado</small></td><td>${y.x.ord?`<b>${y.x.ord}º</b> `:""}${cenTag(y.g,y.id)}${y.m.aero?`<small class="pos">✈ ${hm(y.m.aero.h)}</small>`:""}</td></tr>`).join("")}</tbody></table>
+  <p class="ss" style="margin-top:10px">População: IBGE, Censo 2022. IPT-TIL de 0 a 1, entre os elegíveis (RN06). ✈ = tempo de carro até o aeroporto com voo regular mais rápido (OSRM).</p>`;}
+function renderMapList(){const el=$("#mapinfo");if(!el||!Object.keys(M).length)return;const key=[...mapS].sort().join()+mapPinReg+mapSort.k+mapSort.d+Object.keys(M).length+mapTab+mapUF+cenKey();if(key===mapListKey)return;mapListKey=key;
+  const tabs=`<div class="mtabs" role="group" aria-label="O que mostrar"><button type="button" class="btn small${mapTab==="mun"?" primary":""}" data-mtab="mun" aria-pressed="${mapTab==="mun"}">Municípios</button><button type="button" class="btn small${mapTab==="uf"?" primary":""}" data-mtab="uf" aria-pressed="${mapTab==="uf"}">Ranking de estados</button></div>`;
+  el.style.setProperty("--c","var(--accent)");
+  if(mapTab==="uf"){el.innerHTML=tabs+(mapUF?ufDetailHTML(mapUF):ufListHTML());return;}
+  const R=rankMaps(),O=cenOrd(R),sg=sugMap(),hi=mapHi(),L=Object.entries(M).filter(([id,m])=>inMapList(id,m,sg)).map(([id,m])=>({id,m,pop:num(m.populacao),ipt:score(m,R).total,rk:O[id]?.x.ord??null,out:O[id]?.x.out||"",fix:O[id]?.x.fix}));
+  const {k,d}=mapSort;L.sort((a,b)=>k==="nome"?d*a.m.nome.localeCompare(b.m.nome,"pt"):k==="rk"?((a.rk??999)-(b.rk??999))*d||a.m.nome.localeCompare(b.m.nome,"pt"):((a[k]??-1)-(b[k]??-1))*d||a.m.nome.localeCompare(b.m.nome,"pt"));
   const sel=hi.length?"Destaque: "+eJoin(hi.map(v=>HILAB[v])):MAPSETS.find(x=>x[0]===(mHas("85")?"85":"47"))[2].replace("{n}",L.length),ar=c=>k===c?(d>0?" ▲":" ▼"):"";
   const th=(c,l,cls)=>`<th class="${cls||""}"><button type="button" data-msort="${c}" aria-sort="${k===c?(d>0?"ascending":"descending"):"none"}">${l}${ar(c)}</button></th>`;
-  el.style.setProperty("--c","var(--accent)");
-  el.innerHTML=`<h3 style="font-size:20px">${L.length} municípios</h3><p class="mi-sub">${esc(sel)}. Nº é a posição por população entre os elegíveis da região (Censo 2022); a nota IPT-TIL aparece ao lado. As marcas principal e reserva são a sugestão do índice. Clique no nome para abrir a ficha, na região para marcar os municípios dela no mapa, ou no título da coluna para ordenar. Agrupada pelas 5 regiões.</p>
-   <table class="mlist"><thead><tr><th class="n" title="Posição por população entre os elegíveis da região"><span class="rkh">Nº</span></th>${th("nome","Município")}${th("pop","População","n")}${th("ipt","IPT-TIL","n")}</tr></thead><tbody>${Object.keys(REG).map(r=>{const G=L.filter(x=>x.m.regiao===r);const RK=popRank(r);return G.length?`<tr class="rg${mapPinReg===r?" on":""}"><td colspan="4" style="--c:${REG[r].c}"><button type="button" class="rgb2" data-preg="${r}" aria-pressed="${mapPinReg===r}">${r} <span>${G.length}</span><em>${mapPinReg===r?"alfinetes no mapa · clique para tirar":"mostrar no mapa"}</em></button></td></tr>`+G.map(({id,m,pop,ipt})=>`<tr><td class="n rk">${RK.indexOf(id)>=0?RK.indexOf(id)+1+"º":"–"}</td><td><button type="button" class="mlink" data-map="${id}"><i style="--c:${REG[m.regiao]?.c}"></i>${esc(m.nome)} <span class="muted">· ${m.uf}</span>${sg[id]==="Lista principal"?' <small class="tg">principal</small>':sg[id]==="Reserva"?' <small class="tg s">reserva</small>':""}${DUV[id]?' <small title="Alerta de fonte estadual">⚑</small>':""}</button></td><td class="n">${pop!=null?fmtInt(pop):"–"}</td><td class="n"><b>${fI(ipt)}</b></td></tr>`).join(""):"";}).join("")}</tbody></table>
+  el.innerHTML=tabs+`<h3 style="font-size:20px">${L.length} municípios</h3><p class="mi-sub">${esc(sel)}. Nº é a posição na região pelo critério ativo (${esc(SC.crit==="pers"?`pesos ${SC.w}/${100-SC.w}`:CRITS[SC.crit][0])}). As marcas principal e reserva seguem o cenário. Clique no nome para abrir a ficha, na região para marcar os municípios dela no mapa, ou no título da coluna para ordenar. Agrupada pelas 5 regiões.</p>
+   <table class="mlist"><thead><tr>${th("rk","Nº","n")}${th("nome","Município")}${th("pop","População","n"+(actP()?" act":""))}${th("ipt","IPT-TIL","n"+(actI()?" act":""))}</tr></thead><tbody>${Object.keys(REG).map(r=>{const G=L.filter(x=>x.m.regiao===r);return G.length?`<tr class="rg${mapPinReg===r?" on":""}"><td colspan="4" style="--c:${REG[r].c}"><button type="button" class="rgb2" data-preg="${r}" aria-pressed="${mapPinReg===r}">${r} <span>${G.length}</span><em>${mapPinReg===r?"alfinetes no mapa · clique para tirar":"mostrar no mapa"}</em></button></td></tr>`+G.map(({id,m,pop,ipt,rk,out,fix})=>`<tr><td class="n rk">${rk?rk+"º":"–"}</td><td><button type="button" class="mlink" data-map="${id}"><i style="--c:${REG[m.regiao]?.c}"></i>${esc(m.nome)} <span class="muted">· ${m.uf}</span>${fix?" 📌":""}${sg[id]==="Lista principal"?' <small class="tg">principal</small>':sg[id]==="Reserva"?' <small class="tg s">reserva</small>':""}${out?' <small class="muted">fora do cenário</small>':""}${DUV[id]?' <small title="Alerta de fonte estadual">⚑</small>':""}</button></td><td class="n">${pop!=null?fmtInt(pop):"–"}</td><td class="n"><b>${fI(ipt)}</b></td></tr>`).join(""):"";}).join("")}</tbody></table>
    <p class="ss" style="margin-top:10px">População: IBGE, Censo 2022. IPT-TIL de 0 a 1, calculado só entre os elegíveis (RN06); os não elegíveis ficam sem nota.</p>`;}
+function mapZoomUF(uf){const i=GEO.paths.findIndex(([u])=>u===uf),el=document.querySelectorAll("#mapsvg .ufb")[i];if(!el){renderMap();return;}
+  const bb=el.getBBox(),pad=30;let x0=bb.x-pad,y0=bb.y-pad,w=bb.width+2*pad,h=bb.height+2*pad;const ar=GEO.W/GEO.H;
+  if(w/h>ar){const nh=w/ar;y0-=(nh-h)/2;h=nh;}else{const nw=h*ar;x0-=(nw-w)/2;w=nw;}
+  mapZ={x:x0,y:y0,w,h,k:GEO.W/w,r:"_"};mapClamp();renderMap();}
+// --- resumo e comparação de cenários ---
+function cenCalc(){const R=rankMaps(),o={pri:{},sup:{}};Object.keys(REG).forEach(r=>{const g=sugestao(r,R);o.pri[r]=g.pri.map(x=>x.id);o.sup[r]=g.sup.map(x=>x.id);});return o;}
+function cenMetrics(c){const R=rankMaps(),ids=Object.values(c.pri).flat().filter(id=>M[id]),ms=ids.map(id=>M[id]),sc=ids.map(id=>score(M[id],R).total).filter(v=>v!=null),hs=ms.map(m=>m.aero?.h).filter(v=>v!=null),avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null;
+  return{n:ids.length,ns:Object.values(c.sup).flat().filter(id=>M[id]).length,pop:ms.reduce((t,m)=>t+(num(m.populacao)||0),0),ipt:avg(sc),h:avg(hs),hx:hs.length?Math.max(...hs):null,ufs:new Set(ms.map(m=>m.uf)).size,cat:ms.filter(m=>catArea(m)===2).length,ti:ms.filter(m=>m.ti_ivcad===1).length,duv:ids.filter(id=>DUV[id]).length};}
+const MROWS=[["n","Municípios na lista principal",v=>v],["pop","População somada (Censo 2022)",v=>fmtInt(v)],["ipt","IPT-TIL médio",v=>fI(v)],["h","✈ Tempo médio até o aeroporto",v=>hm(v)],["hx","✈ Maior tempo até o aeroporto",v=>hm(v)],["ufs","Estados cobertos",v=>v],["cat","Com catadores no lixão (SINISA 2025)",v=>v],["ti","Com criança de 7 a 15 anos trabalhando (IVCAD)",v=>v],["duv","Com alerta ⚑ de fonte estadual",v=>v]];
+const munChip=(id,i)=>{const m=M[id];return m?`<button type="button" class="chip${i?" res":""}" style="--c:${REG[m.regiao]?.c}" data-cmap="${id}" title="Ver no mapa">${i?i+". ":""}${esc(m.nome)} · ${m.uf}${m.aero?` <small>✈ ${hm(m.aero.h)}</small>`:""}</button>`:"";};
+function renderCen(){const el=$("#cenwrap");if(!el||!Object.keys(M).length)return;const c=cenCalc(),mt=cenMetrics(c);
+  const all=[{nome:"Cenário atual",cfg:cenCfg(),pri:c.pri,sup:c.sup,cur:1},...CENS];
+  const reg=Object.keys(REG).map(r=>`<tr><td class="rgc" style="--c:${REG[r].c}">${r}</td><td><div class="chips">${c.pri[r].map(id=>munChip(id)).join("")||'<span class="muted">nenhum</span>'}</div></td><td><div class="chips">${c.sup[r].map((id,i)=>munChip(id,i+1)).join("")||'<span class="muted">–</span>'}</div></td></tr>`).join("");
+  let cmp="";
+  if(CENS.length){const pos=(s,id)=>{for(const r of Object.keys(REG)){if((s.pri[r]||[]).includes(id))return "P";const i=(s.sup[r]||[]).indexOf(id);if(i>=0)return "R"+(i+1);}return "";};
+    const ids=[...new Set(all.flatMap(s=>Object.values(s.pri).flat().concat(Object.values(s.sup).flat())))].filter(id=>M[id]);
+    const MS=all.map(s=>cenMetrics(s));
+    const rows=Object.keys(REG).map(r=>{const I=ids.filter(id=>M[id].regiao===r).sort((a,b)=>all.filter(s=>pos(s,b)==="P").length-all.filter(s=>pos(s,a)==="P").length||(num(M[b].populacao)||0)-(num(M[a].populacao)||0));
+      return I.length?`<tr class="rgr"><td colspan="${all.length+1}" style="--c:${REG[r].c}">${r}</td></tr>`+I.map(id=>`<tr><td><button type="button" class="mlink" data-cmap="${id}">${esc(M[id].nome)} <span class="muted">· ${M[id].uf}</span></button></td>${all.map(s=>{const p=pos(s,id);return `<td class="cc">${p==="P"?'<small class="tg">principal</small>':p?`<small class="tg s">reserva ${p.slice(1)}</small>`:""}</td>`;}).join("")}</tr>`).join(""):"";}).join("");
+    cmp=`<h4 class="cenh">Comparação dos cenários</h4><div class="censcroll"><table class="centb"><thead><tr><th></th>${all.map((s,i)=>`<th>${s.cur?"<b>Cenário atual</b>":`<b>${esc(s.nome)}</b>`}<small>${esc(critName(s.cfg))}</small>${s.cur?"":`<span class="cbtns"><button type="button" class="btn small" data-cload="${i-1}">Aplicar</button><button type="button" class="btn small" data-cdel="${i-1}" title="Apagar este cenário">✕</button></span>`}</th>`).join("")}</tr></thead>
+      <tbody>${MROWS.map(([k,l,f])=>`<tr class="mt"><td>${l}</td>${MS.map(m=>`<td class="cc">${m[k]==null?"–":f(m[k])}</td>`).join("")}</tr>`).join("")}${rows}</tbody></table></div>
+      <p class="ss">Cada cenário salvo guarda a lista do momento em que foi salvo. “Aplicar” volta o painel para os ajustes dele.</p>`;}
+  el.innerHTML=`<h3>Cenário atual: lista principal e reservas</h3>
+   <p class="cs" style="max-width:880px;font-size:15px">${cenIsOficial()?"Regra oficial (soma das posições, 3 por região).":`<b class="ctest">Cenário em teste:</b> ${esc(critName())}.`} Clique num município para vê-lo no mapa. Salve o cenário para comparar com outros, lado a lado.</p>
+   <div class="ckps">${MROWS.map(([k,l,f])=>`<div class="ckp"><b>${mt[k]==null?"–":f(mt[k])}</b><span>${l}</span></div>`).join("")}</div>
+   <div class="censcroll"><table class="centb"><thead><tr><th>Região</th><th>Lista principal</th><th>Reservas, na ordem</th></tr></thead><tbody>${reg}</tbody></table></div>
+   <div class="csave"><input type="text" class="field" data-cname="1" maxlength="60" placeholder="Nome do cenário (ex.: populosos até 3h do aeroporto)" aria-label="Nome do cenário"><button type="button" class="btn small primary" data-csave="1">Salvar cenário</button>${CENS.length?`<button type="button" class="btn small" data-cxls="1">⬇ Baixar comparação (planilha)</button>`:""}<small class="muted">Os cenários ficam salvos neste navegador${CENS.length?` (${CENS.length} salvo${CENS.length>1?"s":""})`:""}.</small></div>
+   ${cmp||'<p class="ss">Salve dois ou mais cenários para ver a comparação aqui.</p>'}`;}
+async function cenXLS(){if(!window.XLSX){toast("A biblioteca da planilha não carregou. Recarregue a página.");return;}
+  const all=[{nome:"Cenário atual",cfg:cenCfg(),...cenCalc()},...CENS],wb=XLSX.utils.book_new();
+  const rowsA=all.map(s=>{const m=cenMetrics(s),o={"Cenário":s.nome,"Ajustes":critName(s.cfg)};MROWS.forEach(([k,l])=>{o[l]=k==="h"||k==="hx"?(m[k]==null?null:hm(m[k])):k==="ipt"?(m[k]==null?null:Math.round(m[k]*1000)/1000):m[k];});Object.keys(REG).forEach(r=>{o["Principal "+r]=(s.pri[r]||[]).filter(id=>M[id]).map(id=>`${M[id].nome} (${M[id].uf})`).join("; ");o["Reservas "+r]=(s.sup[r]||[]).filter(id=>M[id]).map(id=>`${M[id].nome} (${M[id].uf})`).join("; ");});return o;});
+  const ws=XLSX.utils.json_to_sheet(rowsA);XLSX.utils.book_append_sheet(wb,ws,"Cenários");
+  const data=XLSX.write(wb,{type:"array",bookType:"xlsx"}),dl=await PAINEL_CLAUDE.use("downloads");if(!dl){toast("O download não está disponível nesta visualização.");return;}
+  try{await dl.save({filename:`cenarios_amostra_${new Date().toISOString().slice(0,10)}.xlsx`,data:new Uint8Array(data)});toast("Planilha salva");}catch(err){if(err&&err.code!=="declined")toast("Não foi possível baixar a planilha.");}}
+document.addEventListener("click",e=>{const t=e.target;
+  const c=t.closest("[data-crit]");if(c){SC.crit=c.dataset.crit;cenChanged();return;}
+  const x=t.closest("[data-cx]");if(x){const id=x.dataset.cx;if(SC.exc.has(id))SC.exc.delete(id);else{SC.exc.add(id);SC.fix.delete(id);}cenChanged();toast(SC.exc.has(id)?`${M[id]?.nome} saiu do cenário`:`${M[id]?.nome} voltou ao cenário`);return;}
+  const f=t.closest("[data-cf]");if(f){const id=f.dataset.cf;if(SC.fix.has(id))SC.fix.delete(id);else{SC.fix.add(id);SC.exc.delete(id);}cenChanged();toast(SC.fix.has(id)?`${M[id]?.nome} fixado na frente da região`:`${M[id]?.nome} desafixado`);return;}
+  if(t.closest("[data-creset]")){Object.assign(SC,{crit:"soma",w:50,vag:3,hmax:0,exc:new Set(),fix:new Set()});cenChanged();toast("Regra oficial de volta");return;}
+  if(t.closest("[data-csave]")){const inp=document.querySelector("[data-cname]"),nome=(inp&&inp.value.trim())||`Cenário ${CENS.length+1}`,c2=cenCalc();CENS.push({nome,cfg:cenCfg(),pri:c2.pri,sup:c2.sup,em:new Date().toISOString()});censSave();renderCen();toast(`“${nome}” salvo`);return;}
+  const ld=t.closest("[data-cload]");if(ld){const s=CENS[+ld.dataset.cload];if(!s)return;Object.assign(SC,{...CEN0,...s.cfg,exc:new Set(s.cfg.exc||[]),fix:new Set(s.cfg.fix||[])});cenChanged();toast(`“${s.nome}” aplicado`);return;}
+  const dd=t.closest("[data-cdel]");if(dd){const i=+dd.dataset.cdel,s=CENS[i];CENS.splice(i,1);censSave();renderCen();if(s)toast(`“${s.nome}” apagado`);return;}
+  if(t.closest("[data-cxls]")){cenXLS();return;}
+  const cm=t.closest("[data-cmap]");if(cm){mapSel=cm.dataset.cmap;mapPinReg=null;renderMap();document.querySelector(".mapbox").scrollIntoView({behavior:"smooth",block:"center"});return;}
+  const mt=t.closest("[data-mtab]");if(mt){mapTab=mt.dataset.mtab;mapUF=null;mapSel=null;mapListKey="";mapZoom(null);return;}
+  const us=t.closest("[data-ufsel]");if(us){mapTab="uf";mapUF=us.dataset.ufsel||null;mapSel=null;mapPinReg=null;mapListKey="";if(mapUF){mapZoomUF(mapUF);if(us.closest("#mapsvg")&&matchMedia("(max-width:900px)").matches)$("#mapinfo").scrollIntoView({behavior:"smooth",block:"start"});}else mapZoom(null);return;}
+});
+document.addEventListener("change",e=>{const t=e.target;if(!t.matches)return;if(t.matches("[data-cvag]")){SC.vag=+t.value;cenChanged();}else if(t.matches("[data-chmax]")){SC.hmax=+t.value;cenChanged();}else if(t.matches("[data-cw]")){SC.w=+t.value;cenChanged();}});
+document.addEventListener("input",e=>{const t=e.target;if(t.matches&&t.matches("[data-cw]")){const bs=t.closest("label").querySelectorAll("b");bs[0].textContent=t.value+"%";bs[1].textContent=(100-t.value)+"%";}});
 async function mapPNG(){const svg=$("#mapsvg");if(!svg)return;
   const props=["fill","fill-opacity","stroke","stroke-width","stroke-opacity","stroke-linejoin","opacity","font-family","font-size","font-weight","letter-spacing","text-anchor","paint-order","display","vector-effect"];
   const cl=svg.cloneNode(true),a=svg.querySelectorAll("*"),b=cl.querySelectorAll("*");
@@ -1876,6 +2039,7 @@ function renderMapInfo(id){const m=M[id],el=$("#mapinfo");if(!m||!el)return;cons
       <dt>IPT-TIL</dt><dd><b>${fI(sc.total)}</b> <small>de 0 a 1${cut?" · não elegível, sem nota (RN06)":`${pos?` · ${pos}º de ${g.rk.length} no ${m.regiao}`:""}${sg?` · ${sg}`:""}`}</small></dd>
       <dt>Decisão</dt><dd>${esc(DEC[m.decisao]?.[0]||"—")}</dd>
     </dl>
+    ${cut?"":`<p style="margin:10px 0 0">${cenBtns(id,1)}</p>`}
     ${DUV[id]?`<p class="mi-obs" style="margin-top:10px">⚑ Alerta de fonte estadual: ${esc(DUV[id].saiu)}. Segue elegível pelas regras; a equipe avalia se é inviável (RN17).</p>`:""}
     <h4>Manchetes (${nw.length})</h4><ul class="mi-heads">${nw.map(n=>`<li>${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.titulo||"Abrir fonte")} ↗</a>`:esc(n.titulo||"")} <small>${esc(n.fonte||"")}${n.ano?", "+esc(n.ano):""}</small></li>`).join("")||'<li class="muted">Nenhuma notícia registrada.</li>'}</ul>
     <details class="mi-more"><summary>Mais dados do município</summary>
@@ -1889,7 +2053,7 @@ function renderMapInfo(id){const m=M[id],el=$("#mapinfo");if(!m||!el)return;cons
 document.addEventListener("click",e=>{const ms=e.target.closest("[data-mset]");if(ms){mapPinReg=null;const v=ms.dataset.mset;if(v==="47"&&!mHas("85"))return;if(mHas(v))mapS.delete(v);else{mapS.add(v);if(v==="85")mapS.delete("47");}mapSel=null;mapListKey="";renderMap();return;}
   const so=e.target.closest("[data-msort]");if(so){const k=so.dataset.msort;mapSort=mapSort.k===k?{k,d:-mapSort.d}:{k,d:k==="nome"?1:-1};mapListKey="";renderMapList();return;}
   const pr=e.target.closest("[data-preg]");if(pr){mapPinReg=mapPinReg===pr.dataset.preg?null:pr.dataset.preg;mapListKey="";if(mapPinReg)mapZoomReg(mapPinReg);else mapZoom(null);return;}
-  if(e.target.closest("[data-mlist]")){mapSel=null;mapListKey="";renderMap();return;}const zs=e.target.closest("[data-zs]");if(zs){mapZoomAt(+zs.dataset.zs);return;}if(e.target.closest("[data-air]")){mapAir=!mapAir;renderMap();return;}if(e.target.closest("[data-png]")){mapPNG();return;}const z=e.target.closest("[data-mz]");if(z){mapZoom(z.dataset.mz);return;}const c=e.target.closest("[data-map]");if(!c)return;mapSel=c.dataset.map;mapPinReg=null;renderMap();if(c.closest("#mapinfo")){const mb=document.querySelector(".mapbox").getBoundingClientRect();if(mb.bottom<60||mb.top>innerHeight-100)document.querySelector(".mapbox").scrollIntoView({behavior:"smooth",block:"center"});}
+  if(e.target.closest("[data-mlist]")){mapSel=null;if(mapTab==="uf"&&mapUF){mapListKey="";mapZoomUF(mapUF);return;}mapListKey="";renderMap();return;}const zs=e.target.closest("[data-zs]");if(zs){mapZoomAt(+zs.dataset.zs);return;}if(e.target.closest("[data-air]")){mapAir=!mapAir;renderMap();return;}if(e.target.closest("[data-png]")){mapPNG();return;}const z=e.target.closest("[data-mz]");if(z){mapZoom(z.dataset.mz);return;}const c=e.target.closest("[data-map]");if(!c)return;mapSel=c.dataset.map;mapPinReg=null;renderMap();if(c.closest("#mapinfo")){const mb=document.querySelector(".mapbox").getBoundingClientRect();if(mb.bottom<60||mb.top>innerHeight-100)document.querySelector(".mapbox").scrollIntoView({behavior:"smooth",block:"center"});}
   if(matchMedia("(max-width:900px)").matches)$("#mapinfo").scrollIntoView({behavior:"smooth",block:"start"});});
 document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches("[data-map]")){e.preventDefault();e.target.dispatchEvent(new MouseEvent("click",{bubbles:true}));}});
 </script>
